@@ -4,40 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="page-portfolio">
     <header>
       <nav>
         <!-- logo -->
-        <a href="">WebStudio</a>
+        <a href="" class="logo-upper"> <span>Web</span>Studio</a>
         <!-- navigation to other pages -->
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
       <!-- contacts -->
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-item"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+380961111111" class="contact-item">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="gallery">
         <!-- скрытый заголовк -->
-        <h1>Наше портфолио</h1>
+        <h1 class="gallery-title">Наше портфолио</h1>
         <!-- фильтр портфолио -->
-        <ul>
-          <li><button type="button">Все</button></li>
-          <li><button type="button">Веб-сайты</button></li>
-          <li><button type="button">Приложения</button></li>
-          <li><button type="button">Дизайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+        <ul class="filter list">
+          <li><button type="button" class="filter-item">Все</button></li>
+          <li><button type="button" class="filter-item">Веб-сайты</button></li>
+          <li><button type="button" class="filter-item">Приложения</button></li>
+          <li><button type="button" class="filter-item">Дизайн</button></li>
+          <li><button type="button" class="filter-item">Маркетинг</button></li>
         </ul>
-        <ul>
-          <li>
+        <ul class="galery-catalogue list">
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf1.jpg"
@@ -45,11 +52,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="gallery-subtitle">Технокряк</h2>
+              <p class="gallery-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf2.jpg"
@@ -57,11 +64,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <h2 class="gallery-subtitle">Постер New Orlean vs Golden Star</h2>
+              <p class="gallery-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf3.jpg"
@@ -69,11 +76,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Ресторан Seafood</h2>
-              <p>Приложение</p>
+              <h2 class="gallery-subtitle">Ресторан Seafood</h2>
+              <p class="gallery-text">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf4.jpg"
@@ -81,11 +88,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект Prime</h2>
-              <p>Маркетинг</p>
+              <h2 class="gallery-subtitle">Проект Prime</h2>
+              <p class="gallery-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf5.jpg"
@@ -93,11 +100,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект Boxes</h2>
-              <p>Приложение</p>
+              <h2 class="gallery-subtitle">Проект Boxes</h2>
+              <p class="gallery-text">Приложение</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf6.jpg"
@@ -105,11 +112,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="gallery-subtitle">Inspiration has no Borders</h2>
+              <p class="gallery-text">Веб-сайт</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf7.jpg"
@@ -117,11 +124,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Издание Limited Edition</h2>
-              <p>Дизайн</p>
+              <h2 class="gallery-subtitle">Издание Limited Edition</h2>
+              <p class="gallery-text">Дизайн</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf8.jpg"
@@ -129,11 +136,11 @@
                 width="370"
                 height="294"
               />
-              <h2>Проект LAB</h2>
-              <p>Маркетинг</p>
+              <h2 class="gallery-subtitle">Проект LAB</h2>
+              <p class="gallery-text">Маркетинг</p>
             </a>
           </li>
-          <li>
+          <li class="gallery-item">
             <a href="">
               <img
                 src="./images/portfolio_images/portf9.jpg"
@@ -141,22 +148,27 @@
                 width="370"
                 height="294"
               />
-              <h2>Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="gallery-subtitle">Growing Business</h2>
+              <p class="gallery-text">Приложение</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
     <footer>
-      <div>
+      <div class="data">
         <!-- logo -->
-        <a href="">WebStudio</a>
+        <a href="" class="logo-down"><span>Web</span>Studio</a>
         <!-- adress and contacts -->
-        <address>
+        <address class="data-address">
           г. Киев, пр-т Леси Украинки, 26 <br />
-          <a href="mailto:info@example.com">info@example.com</a> <br />
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <a href="mailto:info@example.com" class="contact-address"
+            >info@example.com</a
+          >
+          <br />
+          <a href="tel:+380991111111" class="contact-address"
+            >+38 099 111 11 11</a
+          >
         </address>
       </div>
     </footer>

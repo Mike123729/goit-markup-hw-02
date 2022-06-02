@@ -5,27 +5,29 @@
     --secondary-text-color: #757575;
     --hover-text-color: #2196F3;
     --part-logo-color: #2196F3;
+    --border-galery-color: #EEEEEE;
 }
 
-/* .................MAIN PAGE-STUDIO................ */
-.page-studio {
+/* ................PAGES................ */
+.page-studio,
+.page-portfolio {
     color: var(--primary-text-color);
     background-color: var(--primary-white-bgcolor);
 }
 
-/* скрываем точки у списков */
+/* скрываем точки у списков всех страниц */
 .list {
     list-style: none;
 }
 
-/* ...HEADER... */
+/* ...HEADER для всех страниц... */
 
 /* logo header*/
-header .logo-header {
+header .logo-upper {
     color: #000000;
 }
 
-.logo-header span {
+.logo-upper span {
     color: var(--part-logo-color);
 }
 
@@ -57,7 +59,8 @@ header .contact-item:focus {
     color: var(--hover-text-color);
 }
 
-/* ...Секция герой... */
+/* ...........MAIN для страницы Студио...........  */
+/* ..Секция герой.. */
 
 .hero {
     background-color: var(--secondary-bg-color);
@@ -110,18 +113,18 @@ header .contact-item:focus {
     color: #757575;
 }
 
-/* ...Подвал в сайте... */
+/* ...Подвал в сайте всех страниц... */
 footer {
     background-color: var(--secondary-bg-color);
 }
 
 /* logo-footer */
 
-.data>.logo-footer {
+.data>.logo-down {
     color: #FFFFFF;
 }
 
-.logo-footer>span {
+.logo-down>span {
     color: var(--part-logo-color);
 }
 
@@ -130,6 +133,31 @@ footer {
     color: #FFFFFF;
 }
 
+/* контакты */
 .data-address>.contact-address {
     color: rgba(255, 255, 255, 0.6);
+}
+
+/* .................PORTFOLIO PAGE................. */
+
+/* MAIN на странице с портфолио */
+/* скрытый заголовок */
+.gallery>.gallery-title {
+    display: none;
+}
+
+/*фильтр на галерею */
+.filter .filter-item {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+}
+
+/* подзаголовок для каждой марки */
+
+.gallery-item .gallery-subtitle {
+    color: var(--primary-text-color);
+}
+
+.gallery-item .gallery-text {
+    color: var(--secondary-text-color);
 }
