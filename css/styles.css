@@ -1,0 +1,73 @@
+:root {
+    --primary-white-bgcolor: #FFFFFF;
+    --secondary-bg-color: #2F303A;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --hover-text-color: #2196F3;
+    --part-logo-color: #2196F3;
+}
+
+/* .................MAIN PAGE-STUDIO................ */
+.page-studio {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-bgcolor);
+}
+
+/* ......HEADER..... */
+
+/* logo header*/
+header .logo-header {
+    color: #000000;
+}
+
+.logo-header span {
+    color: var(--part-logo-color);
+}
+
+/* navigation list */
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+/* ховер на линки страниц */
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-text-color);
+}
+
+/* 'эфект текущей страницы */
+.site-nav .link.current {
+    color: var(--hover-text-color);
+}
+
+/* contacts */
+
+header .contact-item {
+    color: #757575;
+}
+
+/* ховер на контакты */
+header .contact-item:hover,
+header .contact-item:focus {
+    color: var(--hover-text-color);
+}
+
+/* .....Секция герой..... */
+
+.hero {
+    background-color: var(--secondary-bg-color);
+}
+
+/* Заголовок героя */
+.hero>.hero-title {
+    color: #FFFFFF;
+}
+
+.hero>button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.hero>button:active {
+    background-color: #188CE8;
+}
