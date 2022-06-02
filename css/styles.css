@@ -13,7 +13,12 @@
     background-color: var(--primary-white-bgcolor);
 }
 
-/* ......HEADER..... */
+/* скрываем точки у списков */
+.list {
+    list-style: none;
+}
+
+/* ...HEADER... */
 
 /* logo header*/
 header .logo-header {
@@ -52,7 +57,7 @@ header .contact-item:focus {
     color: var(--hover-text-color);
 }
 
-/* .....Секция герой..... */
+/* ...Секция герой... */
 
 .hero {
     background-color: var(--secondary-bg-color);
@@ -63,11 +68,68 @@ header .contact-item:focus {
     color: #FFFFFF;
 }
 
+/* Кнопка  */
 .hero>button {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 
-.hero>button:active {
+/* активизация фона кнопки при нажатии */
+.hero>button:hover,
+.hero>button:focus {
     background-color: #188CE8;
+}
+
+/* ...Секция Наши преимущества... */
+
+/* cкрытый заголовок */
+.features-title {
+    display: none;
+}
+
+/* преимущества-текст */
+.features-text {
+    color: var(--secondary-text-color);
+}
+
+/* ...Секция чем мы занимаемся... */
+
+/* ...Секция Наша команда... */
+/* цвет фона */
+.team {
+    background-color: #F5F4FA;
+}
+
+/* цвет карточек */
+.team .team-item {
+    background-color: var(--primary-white-bgcolor);
+}
+
+/* должность в команде  */
+.team-item>.team-position {
+    color: #757575;
+}
+
+/* ...Подвал в сайте... */
+footer {
+    background-color: var(--secondary-bg-color);
+}
+
+/* logo-footer */
+
+.data>.logo-footer {
+    color: #FFFFFF;
+}
+
+.logo-footer>span {
+    color: var(--part-logo-color);
+}
+
+/* Адресс */
+.data-address {
+    color: #FFFFFF;
+}
+
+.data-address>.contact-address {
+    color: rgba(255, 255, 255, 0.6);
 }
