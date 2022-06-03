@@ -10,11 +10,14 @@
 
 /* ................PAGES................ */
 
-/* .page-studio,.page-portfolio - классы для body*/
+/* .page-studio,.page-portfolio - классы для "body" страниц*/
 .page-studio,
 .page-portfolio {
     color: var(--primary-text-color);
     background-color: var(--primary-white-bgcolor);
+
+    font-family: 'roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 /* скрываем точки у списков всех страниц */
@@ -25,8 +28,15 @@
 /* ...HEADER для всех страниц... */
 
 /* logo header*/
+
+
 header .logo-upper {
     color: #000000;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo-upper .accent {
@@ -36,6 +46,11 @@ header .logo-upper {
 /* navigation list */
 .site-nav .link {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* ховер на линки страниц */
@@ -53,6 +68,12 @@ header .logo-upper {
 
 header .contact-item {
     color: #757575;
+
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 /* ховер на контакты */
@@ -71,12 +92,30 @@ header .contact-item:focus {
 /* Заголовок героя */
 .hero>.hero-title {
     color: #FFFFFF;
+
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-/* Кнопка  */
+/* Кнопка в секции герой */
 .hero>button {
     color: #FFFFFF;
     background-color: #2196F3;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
 }
 
 /* активизация фона кнопки при нажатии */
@@ -87,36 +126,88 @@ header .contact-item:focus {
 
 /* ...Секция Наши преимущества... */
 
-/* cкрытый заголовок */
+/*       подзаголовки */
+.features .features-subtitle {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+}
+
+/* cкрытый заголовок секции "наши преимущества"*/
 .features-title {
     display: none;
 }
 
 /* преимущества-текст */
-.features-text {
+.features .features-text {
     color: var(--secondary-text-color);
+
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
 }
 
 /* ...Секция чем мы занимаемся... */
 
+.work>.work-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
 /* ...Секция Наша команда... */
+
+.team>.team-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+}
+
 /* цвет фона */
 .team {
     background-color: #F5F4FA;
 }
 
-/* цвет карточек */
+/* цвет фона карточек */
 .team .team-item {
     background-color: var(--primary-white-bgcolor);
+}
+
+/* имя работника */
+
+.team-item>.team-name {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
 }
 
 /* должность в команде  */
 .team-item>.team-position {
     color: #757575;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
 }
 
 /* ...Подвал в сайте всех страниц... */
-footer {
+.basement {
     background-color: var(--secondary-bg-color);
 }
 
@@ -124,6 +215,11 @@ footer {
 
 .data>.logo-down {
     color: #FFFFFF;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo-down .accent {
@@ -131,13 +227,24 @@ footer {
 }
 
 /* Адресс */
-.data-address {
+.data .data-address {
     color: #FFFFFF;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* контакты */
 .data-address>.contact-address {
     color: rgba(255, 255, 255, 0.6);
+
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
 }
 
 /* .................PORTFOLIO PAGE................. */
