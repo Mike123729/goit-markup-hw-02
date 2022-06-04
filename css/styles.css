@@ -37,6 +37,8 @@ header .logo-upper {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+
+    text-decoration-line: none;
 }
 
 .logo-upper .accent {
@@ -51,6 +53,8 @@ header .logo-upper {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    text-decoration-line: none;
 }
 
 /* ховер на линки страниц */
@@ -66,7 +70,7 @@ header .logo-upper {
 
 /* contacts */
 
-header .contact-item {
+.contact .contact-item {
     color: #757575;
 
 
@@ -74,6 +78,8 @@ header .contact-item {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    text-decoration-line: none;
 }
 
 /* ховер на контакты */
@@ -103,7 +109,7 @@ header .contact-item:focus {
 }
 
 /* Кнопка в секции герой */
-.hero>button {
+.hero>.window {
     color: #FFFFFF;
     background-color: #2196F3;
 
@@ -116,11 +122,12 @@ header .contact-item:focus {
     text-align: center;
     letter-spacing: 0.06em;
 
+    cursor: pointer;
 }
 
 /* активизация фона кнопки при нажатии */
-.hero>button:hover,
-.hero>button:focus {
+.hero>.window:hover,
+.hero>.window:focus {
     background-color: #188CE8;
 }
 
@@ -220,6 +227,8 @@ header .contact-item:focus {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+
+    text-decoration-line: none;
 }
 
 .logo-down .accent {
@@ -245,6 +254,7 @@ header .contact-item:focus {
     font-size: 14px;
     line-height: 1.71;
 
+    text-decoration-line: none;
 }
 
 /* .................PORTFOLIO PAGE................. */
@@ -259,6 +269,14 @@ header .contact-item:focus {
 .filter .filter-item {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+
+    cursor: pointer;
+
 }
 
 .filter .filter-item:hover,
@@ -269,10 +287,28 @@ header .contact-item:focus {
 
 /* подзаголовок для каждой марки */
 
+.gallery-item>.gallery-content {
+    text-decoration-line: none;
+}
+
 .gallery-item .gallery-subtitle {
     color: var(--primary-text-color);
+
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+
+    text-decoration-line: none;
 }
 
 .gallery-item .gallery-text {
     color: var(--secondary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+
 }
